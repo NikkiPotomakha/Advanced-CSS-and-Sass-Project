@@ -1,19 +1,26 @@
 {
   "name": "advanced-css-and-sass-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Landing page for advanced-css-and-sass-project",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NikkiPotomakha/Advanced-CSS-and-Sass-Project"
+    "url": "git+https://github.com/NikkiPotomakha/Advanced-CSS-and-Sass-Project.git"
   },
   "author": "NikkiPotomakha",
   "license": "ISC",
   "dependencies": {
-    "live-server": "^1.2.2",
+    "live-server": "^1.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/NikkiPotomakha/Advanced-CSS-and-Sass-Project/issues"
+  },
+  "homepage": "https://github.com/NikkiPotomakha/Advanced-CSS-and-Sass-Project#readme",
+  "keywords": [],
+  "devDependencies": {
     "node-sass": "^9.0.0"
   }
 }
